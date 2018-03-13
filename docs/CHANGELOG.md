@@ -1,4 +1,29 @@
+---
+title: Changelog | Voyager
+description: Changelog
+menu:
+  product_voyager_6.0.0:
+    identifier: changelog-voyager
+    name: Changelog
+    parent: welcome
+    weight: 10
+product_name: voyager
+menu_name: product_voyager_6.0.0
+section_menu_id: welcome
+url: /products/voyager/6.0.0/welcome/changelog/
+aliases:
+  - /products/voyager/6.0.0/CHANGELOG/
+---
+
 # Change Log
+
+## [Unreleased](https://github.com/appscode/voyager/tree/HEAD)
+
+[Full Changelog](https://github.com/appscode/voyager/compare/6.0.0...HEAD)
+
+**Merged pull requests:**
+
+- Add badge for docker pull stats [\#934](https://github.com/appscode/voyager/pull/934) ([tamalsaha](https://github.com/tamalsaha))
 
 ## [6.0.0](https://github.com/appscode/voyager/tree/6.0.0) (2018-03-13)
 [Full Changelog](https://github.com/appscode/voyager/compare/6.0.0-rc.2...6.0.0)
