@@ -9,11 +9,12 @@ go:
 
 install:
   - curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
-  - chmod +x kubectl; mv kubectl /bin/
+  - chmod +x kubectl; sudo mv kubectl /bin/
   - wget https://cdn.rawgit.com/Mirantis/kubeadm-dind-cluster/master/fixed/dind-cluster-v1.8.sh && chmod +x dind-cluster-v1.8.sh && ./dind-cluster-v1.8.sh up
 
 
 script:
+  - kubectl get nodes
   - ./hack/make.py test unit
   - ./hack/make.py test minikube
 
