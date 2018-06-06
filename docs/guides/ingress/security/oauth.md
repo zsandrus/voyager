@@ -341,3 +341,6 @@ spec:
           serviceName: oauth2-proxy-github
           servicePort: 4180
 ```
+
+- Learn how to use google as auth provider [here](oauth-google.md).
+- Learn how to securely access kubernetes dashboard using voyager oauth [here](oauth-dashboard.md).
